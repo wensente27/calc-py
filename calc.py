@@ -17,7 +17,7 @@ def divide(num1, num2):
     return num1 / num2
 
 # Selection for operation
-print("Please select operation -\n" \
+print("Select an operation -\n" \
         "1. Add\n" \
         "2. Subtract\n" \
         "3. Multiply\n" \
@@ -25,7 +25,7 @@ print("Please select operation -\n" \
   
   
 # Get input
-select = int(input("Select operations form 1, 2, 3, or 4 : "))
+select = int(input("Select from 1, 2, 3, or 4 : "))
   
 number_1 = int(input("Enter first number: "))
 number_2 = int(input("Enter second number: "))
